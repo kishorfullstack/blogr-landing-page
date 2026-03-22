@@ -118,14 +118,6 @@ Technologies I want to learn:
 - [W3Schools](https://www.w3schools.com/) - This is an amazing website for learning, I've learned abot semantic tags from here only and learned many important HTML elements. I'd recommend it to anyone still learning this concept.
 - [CSS Responsive Images](https://imagekit.io/responsive-images/#chapter-4---srcset) - This reference helped me understand responsive images with great visiualization.
 
-## Author
-
-- Frontend Mentor - [@vatsalsinghkv](https://www.frontendmentor.io/profile/vatsalsinghkv)
-- Github - [@vatsalsinghkv](https://github.com/vatsalsinghkv)
-- Twitter - [@vatsalsinghkv](https://www.twitter.com/vatsalsinghkv)
-- Instagram - [@vatsal.sing.hkv](https://www.instagram.com/vatsal.singh.kv)
-- Facebook - [@vatsalsinghkv](https://www.facebook.com/vatsal.singh.kv)
-
 ## Acknowledgments
 
 - [Changing :hover to touch/click for mobile devices](https://stackoverflow.com/a/22560108/14076424) - This answer on stackoverflow really helped me.
