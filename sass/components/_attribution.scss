@@ -1,0 +1,16 @@
+@use '../abstract/variables' as *;
+
+.attribution {
+	letter-spacing: 0.25px;
+	padding-bottom: 2rem;
+	margin-top: -0.15rem;
+	font-size: 1.1rem;
+	text-align: center;
+	background-color: $color-grey-3;
+	color: $color-grey-1;
+}
+
+.attribution a {
+	color: $color-primary;
+	font-weight: bold;
+}

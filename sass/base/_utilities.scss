@@ -1,0 +1,57 @@
+@use '../abstract/variables' as *;
+
+.u-text-center {
+	text-align: center;
+}
+
+// Margin-Top
+
+.u-mt-1 {
+	margin-top: 2rem;
+}
+
+.u-mt-2 {
+	margin-top: 5rem;
+}
+
+.u-mt-3 {
+	margin-top: 8rem;
+
+	@media only screen and (max-width: $md) {
+		margin-top: 4rem;
+	}
+}
+
+.u-mt-4 {
+	margin-top: 10rem;
+
+	@media only screen and (max-width: $md) {
+		margin-top: 5rem;
+	}
+}
+
+// Margin-Bottom
+
+.u-mb-1 {
+	margin-bottom: 2rem;
+}
+
+.u-mb-2 {
+	margin-bottom: 5rem;
+}
+
+.u-mb-3 {
+	margin-bottom: 8rem;
+
+	@media only screen and (max-width: $md) {
+		margin-bottom: 4rem;
+	}
+}
+
+.u-mb-4 {
+	margin-bottom: 10rem;
+
+	@media only screen and (max-width: $md) {
+		margin-bottom: 5rem;
+	}
+}

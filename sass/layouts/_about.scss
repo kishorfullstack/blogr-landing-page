@@ -1,0 +1,54 @@
+@use '../abstract/mixins' as *;
+@use '../abstract/variables' as *;
+
+// Section
+
+.about {
+	margin-top: 2rem;
+	padding: 10rem 3rem 5rem 3rem;
+	overflow: hidden;
+
+	@media only screen and (max-width: $md) {
+		padding: 5rem 3rem;
+		margin-bottom: 30vw;
+	}
+
+	@media only screen and (max-width: $md-sm) {
+		margin-bottom: 30vw;
+	}
+
+	&__container {
+		@include contentStyle;
+		display: flex;
+		align-items: center;
+
+		@media only screen and (max-width: $md) {
+			flex-direction: column-reverse;
+		}
+	}
+
+	&__content {
+		flex: 1 0 50%;
+		align-self: flex-start;
+
+		@media only screen and (max-width: $md) {
+			text-align: center;
+		}
+	}
+
+	&__img {
+		max-width: 100%;
+		margin-left: 8vw;
+		margin-top: -25rem;
+		flex-shrink: 0;
+
+		& > img {
+			width: 100%;
+		}
+		@media only screen and (max-width: $md) {
+			margin-left: 0rem;
+			margin-top: 0rem;
+			margin-bottom: 5rem;
+		}
+	}
+}

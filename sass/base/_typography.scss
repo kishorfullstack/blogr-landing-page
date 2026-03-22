@@ -1,0 +1,59 @@
+@use '../abstract/variables' as *;
+
+%base {
+	line-height: 130%;
+}
+
+.heading-primary {
+	@extend %base;
+	font-family: $font-primary;
+	font-size: 6rem;
+	color: $color-white;
+	margin-bottom: 2rem;
+
+	@media only screen and (max-width: $md) {
+		font-size: 4rem;
+		margin-bottom: 1.5rem;
+	}
+
+	&--sub {
+		@extend %base;
+		color: $color-white;
+		font-size: 2rem;
+		font-weight: lighter;
+		margin-bottom: 5rem;
+	}
+}
+
+.heading-secondary {
+	@extend %base;
+	font-family: $font-primary;
+	font-size: 3.8rem;
+	color: $color-secondary;
+
+	@media only screen and (max-width: $md) {
+		font-size: 3rem;
+	}
+
+	&--white {
+		color: $color-white;
+	}
+}
+
+.heading-tertiary {
+	@extend %base;
+	font-family: $font-primary;
+	font-size: 2.8rem;
+	color: $color-secondary;
+}
+
+.para {
+	letter-spacing: 0.65px;
+	&:not(:last-child) {
+		margin-bottom: 6rem;
+
+		@media only screen and (max-width: $md) {
+			margin-bottom: 4rem;
+		}
+	}
+}
