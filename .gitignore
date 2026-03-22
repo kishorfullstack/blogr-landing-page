@@ -1,6 +1,7 @@
 # Avoid node modules
 /node_modules
 /css
+/public
 /design
 
 # Avoid accidental upload of the Sketch and Figma design files

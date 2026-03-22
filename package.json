@@ -8,7 +8,7 @@
 		"scss:compile": "sass sass/main.scss css/style.comp.css",
 		"scss:postfix": "postcss css/style.comp.css --use autoprefixer -d css/",
 		"scss:compress": "sass css/style.comp.css css/style.css --style compressed",
-		"build": "npm-run-all scss:compile scss:postfix scss:compress"
+		"build": "npm-run-all scss:compile scss:postfix scss:compress && node scripts/sync-public.js"
 	},
 	"repository": {
 		"type": "git",
